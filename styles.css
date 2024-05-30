@@ -316,6 +316,10 @@ section h2 {
     max-width: 1200px;
 }
 
+.hbspt-form {
+    width: 1200px;
+}
+
 footer {
     background-color: #f77a14;
     color: white;
