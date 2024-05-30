@@ -309,6 +309,13 @@ section h2 {
     background-color: #e55b00;
 }
 
+contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+}
+
 footer {
     background-color: #f77a14;
     color: white;
