@@ -1,20 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-    <title>CRM Page</title>
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>E-SHOP</h1>
+    <header>
+        <h1>Mi Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="Desarrollo">Desarrollo</a></li>
+                <li><a href="Diseño">Diseño</a></li>
+                <li><a href="Software">Software</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Bienvenido a mi Portafolio</h2>
+            <div class="hero-buttons">
+                <button onclick="alert('Botón 1')">Botón 1</button>
+                <button onclick="alert('Botón 2')">Botón 2</button>
+                <button onclick="alert('Botón 3')">Botón 3</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="section1">
+        <h2>Mockup de Computadora con Video</h2>
+        <div class="mockup-container">
+            <img src="./img/laptop-mockup.png" alt="Mockup de Laptop" class="mockup">
+            <div class="video-container">
+                <video controls>
+                    <source src="videos/sample.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="section2">
+        <h2>Galería de Posters</h2>
+        <div class="carousel">
+            <div class="carousel-item"><img src="./img/ca2eee31b2d25e767bcd9531084e4704.jpg" alt="Poster 1"></div>
+            <div class="carousel-item"><img src="./img/599117d325c5d21952e28182b8bf8ba6.jpg" alt="Poster 2"></div>
+            <div class="carousel-item"><img src="./img/16ecdfc726433757f0cbede5aa960e5e.jpg" alt="Poster 3"></div>
+            <div class="carousel-item"><img src="./img/a2934ae286df4ad64af0ed5c00eca281.jpg" alt="Poster 4"></div>
+        </div>
+    </section>
     
+
+    <section id="section3">
+        <h2>Sección 3</h2>
+        <div class="image-container">
+            <img src="./img/ef6ff103e18a1ddd4f519e31c38181ca.jpg" alt="Imagen Horizontal">
+        </div>
+    </section>
+
+    <section id="section4">
+        <h2>Galería Circular</h2>
+        <div class="circle-gallery">
+            <div class="circle-item"><img src="./img/circulos/f1106241cb2d58c67bd0a082ce48fae9.jpg" alt="Imagen 1"></div>
+            <div class="circle-item"><img src="./img/circulos/b2a54b91566eb5cd0cffd9f996438966.jpg" alt="Imagen 2"></div>
+            <div class="circle-item"><img src="./img/circulos/7ca296e866714f0f3e2ab5f298004c1f.jpg" alt="Imagen 3"></div>
+            <div class="circle-item"><img src="./img/circulos/28dd3d07bc8cb7a2e6482492e988ce52ff.jpg" alt="Imagen 4"></div>
+            <div class="circle-item"><img src="./img/circulos/28dd3d07bc8cb7a2e6482492e988ce52.jpg" alt="Imagen 5"></div>
+            <div class="circle-item"><img src="./img/circulos/27e65dae95c9dce9b98a4c549d4b4ba3.jpg" alt="Imagen 6"></div>
+            <div class="circle-item"><img src="./img/circulos/1706c9f16bd08eb5e03f1df3e0a94a1c.jpg" alt="Imagen 7"></div>
+        </div>
+    </section>
+    
+    <section id="section5">
+        <div class="hero-overlay"><img src="./img/ebook.jpg" alt="Imagen 1"></div>
+            <h2> Aprende a Editar Videos ¡Gratis!</h2>
+            <a href="#" class="cta-button">Tutorial edición de video gratis</a>
+        </div>
+    </section>
+
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
 <script>
   hbspt.forms.create({
     region: "na1",
     portalId: "44693318",
     formId: "fb036770-a7a2-4317-a2e6-cc52204efeec"
-  });
+  });
 </script>
+    
+    
+    <footer>
+        <p>&copy; 2024 [Tu Nombre]. Todos los derechos reservados.</p>
+        <div class="social-media">
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
